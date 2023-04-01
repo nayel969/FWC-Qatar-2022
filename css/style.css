@@ -1,0 +1,494 @@
+/*---------------------- 
+     Color Variables 
+----------------------*/
+:root {
+  --color-text-primary: #1c2a38;
+  --color-text-secondary: #8a8f98;
+  --color-text-alert: #d72641;
+  --color-text-icon: #cfced0;
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f3f5f9;
+}
+
+/*---------------------- 
+      Custom Fonts 
+----------------------*/
+@font-face {
+  font-family: "Qatar";
+  src: url(../fonts/Qatar-Heavy.woff) format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Shamel";
+  src: url(../fonts/Shamel-SansOne.woff) format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: fallback;
+}
+
+/*---------------------- 
+    Override Styles 
+----------------------*/
+.bg-primary {
+  background-color: #5b0d25 !important;
+  color: white !important;
+}
+
+.bg-secondary {
+  background-color: #701532 !important;
+  color: white;
+}
+
+.text-primary {
+  color: #c2023c !important;
+}
+
+.border {
+  border: 1px solid #d3d3d3 !important;
+}
+
+/*---------------------- 
+    General Styles 
+----------------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-bg-secondary);
+}
+
+/*--------------------------
+        Header / Navbar 
+--------------------------*/
+.navbar {
+  background: #ffffff8a;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  margin: 0 !important;
+  padding: 0 !important;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  z-index: 10;
+}
+
+.navbar-brand > img {
+  padding: 5px 0 5px 0;
+  width: 230px !important;
+}
+
+.navbar-nav > h1 {
+  line-height: 1.4em;
+  color: white;
+  font-size: 30px;
+  text-shadow: 2px 2px 4px #555;
+  font-family: "Almarai", sans-serif !important;
+}
+
+.navbar-nav h1 > span {
+  font-size: 45px;
+}
+
+/*--------------------------------
+    Animation Birds Section
+--------------------------------*/
+.animation_birds_wrapper {
+  margin-top: -151px;
+  margin-bottom: 180px;
+  position: relative;
+}
+
+.animation_birds_wrapper::before {
+  content: "";
+  background-color: #701532;
+  width: 100%;
+  max-width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: -110px;
+  left: 0;
+}
+
+/*---------------------------------------
+    Where History Was Made <Section>
+---------------------------------------*/
+.where__history {
+  padding-top: 240px;
+}
+
+.where__history--bg {
+  width: 700px !important;
+  max-width: 100%;
+  height: 250px !important;
+  background: #ffffff8a;
+  padding-top: 25px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.where__history--bg > h1 {
+  line-height: 0.9em;
+  font-size: 75px;
+  font-family: "Qatar", Arial, sans-serif !important;
+  color: #07192f;
+  text-shadow: 3px 3px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff,
+    -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+@media (max-width: 767px) {
+  .where__history--bg > h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 540px) {
+  .where__history--bg > h1 {
+    font-size: 50px;
+    line-height: 1.1;
+  }
+}
+
+.where__history--bg > h1 > span {
+  font-size: 45px;
+  color: #701532;
+}
+
+/*----------------------------
+      Hero image Section
+----------------------------*/
+.hero-img > img {
+  width: 400px !important;
+  padding-bottom: 50px !important;
+}
+
+/*--------------------------------
+      Groups Text <Title Row>
+--------------------------------*/
+.title_row__text {
+  margin-bottom: 20px;
+  direction: rtl;
+}
+
+.title_row__text > h2 {
+  font-family: "Shamel", Arial, sans-serif;
+}
+
+.title_row__text > hr {
+  width: 97.5%;
+  border: none;
+  border-bottom: 3px solid #7a7a7a;
+  margin: 10px auto 0;
+}
+
+@media (max-width: 991px) {
+  .title_row__text {
+    text-align: center;
+  }
+}
+
+/*----------------------
+      Flag Image
+----------------------*/
+.flag > img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid #d3d3d3;
+  object-fit: cover;
+}
+
+.tr-hov:hover {
+  background-color: #c9bed7 !important;
+}
+
+/*----------------------------
+      MatchBox Section
+----------------------------*/
+.matchbox-border {
+  padding-left: 120px;
+  padding-right: 120px;
+  margin-bottom: 40px;
+}
+
+.match {
+  background-color: var(--color-bg-primary);
+  border-radius: 10px;
+}
+
+.match-header {
+  text-align: center;
+  border-bottom: 2px solid rgba(48, 48, 48, 0.1);
+  padding: 16px 15px 12px 15px;
+}
+
+.match-content {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.match-header > span {
+  font-size: 18px;
+  color: var(--color-text-primary);
+  font-weight: 600;
+}
+
+.column {
+  padding: 36px 0 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-logo {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #e6e6e6;
+  box-shadow: 0 4px 4px 0 rgba(48, 48, 48, 0.15),
+    0 0 0 15px var(--color-bg-secondary);
+}
+
+.team-logo > img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  object-fit: cover;
+  border: 1px solid #70153237;
+}
+
+.team-name {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.match-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.match-date {
+  font-size: 15px;
+  color: var(--color-text-secondary);
+  margin-top: -90px;
+  margin-bottom: 20px;
+}
+
+.match-date > strong {
+  color: var(--color-text-primary);
+}
+
+strong {
+  font-weight: 600;
+}
+
+.match-score {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.match-score-number {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.match-score-number--leading {
+  color: var(--color-theme-primary);
+}
+
+.match-score-divider {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--color-text-icon);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*----------------------------
+      Footer Section
+----------------------------*/
+.bg-footer {
+  background-color: #081c2c;
+}
+
+.bg-pattern {
+  background-image: url(../imgs/footer-pattern.png);
+  background-size: 105%, cover;
+}
+
+.footer-txt {
+  direction: rtl !important;
+}
+
+.footer-txt > p {
+  padding: 60px 0 0 0;
+  width: 900px;
+  line-height: 1.6em;
+  font-family: "Tajawal", sans-serif;
+  font-size: 18px;
+}
+
+/*----------------------------
+      Copyright Section
+----------------------------*/
+.copy__right {
+  margin-top: 5px;
+  border-top: 1px solid #7a7a7a;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.copy__right > span {
+  font-size: 17px;
+}
+
+.copy__right > i {
+  color: #ee3a70;
+}
+
+.copy__right > a {
+  color: #fd5487;
+  text-decoration: none;
+}
+
+.copy__right > a:hover {
+  color: #ff80a6;
+}
+
+/*=========================
+     < Media Queries > 
+=========================*/
+
+/*   [ For Tablet ]  */
+@media (max-width: 912px) {
+  .won > span {
+    display: none;
+  }
+  .won::after {
+    content: "W" !important;
+  }
+
+  .lost > span {
+    display: none;
+  }
+  .lost::after {
+    content: "L" !important;
+  }
+
+  .draw > span {
+    display: none;
+  }
+  .draw::after {
+    content: "D" !important;
+  }
+
+  /*--------| Match Box |--------*/
+  .matchbox-border {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .match-content {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /*--------| Footer |--------*/
+  .footer-txt > p {
+    width: 650px;
+    font-size: 18px;
+  }
+}
+
+/*   [ For Phone ]  */
+@media (max-width: 540px) {
+  .navbar-brand > img {
+    width: 190px !important;
+  }
+
+  .navbar-nav > h1 {
+    font-size: 25px;
+  }
+
+  .navbar-nav h1 > span {
+    font-size: 38px;
+  }
+
+  .hero-img > img {
+    width: 280px !important;
+    padding-bottom: 30px;
+  }
+
+  /*---------| Matches Box |---------*/
+  .matchbox-border {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+
+  .match-content {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .column {
+    padding: 50px 0 30px 0;
+  }
+
+  .team-logo {
+    width: 55px;
+    height: 55px;
+    box-shadow: 0 4px 4px 0 rgba(48, 48, 48, 0.15),
+      0 0 0 10px var(--color-bg-secondary);
+  }
+  .team-logo > img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .match-date {
+    margin-top: -100px;
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+
+  .match-score-number {
+    font-size: 35px;
+    font-weight: 700;
+  }
+
+  /*-----------| Footer |-----------*/
+  .footer-txt > p {
+    width: 330px;
+    font-size: 16px;
+  }
+}

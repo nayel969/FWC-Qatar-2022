@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Library -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Basic Stylesheet File -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap" rel="stylesheet">
+    <!-- Website Favicon -->
+    <link rel="shortcut icon" href="./imgs/fav_icon.png" type="image/x-icon">
+    <title>FIFA WORLD CUP</title>
+</head>
+
+<body>
+    <!--========== Header Section ==========-->
+    <nav class="navbar | navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="w-25 | img-fluid" src="./imgs/fwc-logo.webp" alt="Logo">
+            </a>
+            <div>
+                <div class="navbar-nav | ms-auto">
+                    <h1 style="direction: rtl">
+                        كأس<span><br>العالم</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--========== Animation Birds Section ==========-->
+    <div id="mybirds" class="animation_birds_wrapper | container-fluid">
+        <!-- Where History Was Made -->
+        <div class="where__history | container">
+            <div class="where__history--bg | text-center">
+                <h1>
+                    <span>&#9670;</span> Where history was made <span>&#9670;</span>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <!--========== Hero image ==========-->
+    <div class="hero-img | container | text-center">
+        <img class="w-50 | img-fluid" src="./imgs/fwc-hero-img.png">
+    </div>
+
+    <!--========== Main content <Tables> ==========-->
+    <div class="container | pt-3 | pb-5">
+        <!-- Standings -->
+        <div class="px-2 | pt-3 | px-sm-0">
+            <!-- Title Row -->
+            <div class="title_row__text | row">
+                <h2>المجموعات</h2>
+                <hr>
+            </div>
+            <!-- Standings Row -->
+            <div class="row | pt-3" id="standings">
+                <!-- Standing Column -->
+                <div class="col-sm-6 | mb-2">
+                    <table
+                        class="table | table-responsive | text-center | align-middle | shadow | table-hover | bg-white">
+                        <!-- Group Name -->
+                        <thead class="bg-primary">
+                            <tr>
+                                <th scope="col" colspan="6">Group (A)</th>
+                            </tr>
+                        </thead>
+                        <!-- Standing Content -->
+                        <tbody>
+                            <!-- All Standings Headers -->
+                            <tr class="tr-hov | bg-secondary">
+                                <th scope="row" colspan="2" class="fw-normal">Team</th>
+                                <td class="won"><span>Won</span></td>
+                                <td class="lost"><span>Lost</span></td>
+                                <td class="draw"><span>Draw</span></td>
+                                <td>Pts</td>
+                            </tr>
+                            <!-- Standings Data -->
+                            <tr>
+                                <th scope="row" colspan="2" class="fw-normal | flag">
+                                    <img src="./imgs/Flag-KSA.webp" class="rounded-circle">
+                                    <span>KSA</span>
+                                </th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" colspan="2" class="fw-normal | flag">
+                                    <img src="./imgs/Flag-KSA.webp" class="rounded-circle">
+                                    <span>KSA</span>
+                                </th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" colspan="2" class="fw-normal | flag">
+                                    <img src="./imgs/Flag-KSA.webp" class="rounded-circle">
+                                    <span>KSA</span>
+                                </th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" colspan="2" class="fw-normal | flag">
+                                    <img src="./imgs/Flag-KSA.webp" class="rounded-circle">
+                                    <span>KSA</span>
+                                </th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Standing Column -->
+                <div class="col-sm-6">
+                    <table
+                        class="table | table-responsive | text-center | align-middle | shadow | table-hover | bg-white">
+                        <!-- Group Name -->
+                        <thead class="bg-primary">
+                            <tr>
+                                <th scope="col" colspan="6">Group (A)</th>
+                            </tr>
+                        </thead>
+                        <!-- Standing Content -->
+                        <tbody>
+                            <!-- All Standings Headers -->
+                            <tr class=" tr-hov | bg-secondary">
+                                <th scope="row" colspan="2" class="fw-normal">Team</th>
+                                <td class="won"><span>Won</span></td>
+                                <td class="lost"><span>Lost</span></td>
+                                <td class="draw"><span>Draw</span></td>
+                                <td>Pts</td>
+                            </tr>
+                            <!-- Standings Data -->
+                            <tr>
+                                <th scope="row" colspan="2" class="fw-normal | flag">
+                                    <img src="./imgs/Flag-KSA.webp" class="rounded-circle">
+                                    <span>KSA</span>
+                                </th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" colspan="2" class="fw-normal | flag">
+                                    <img src="./imgs/Flag-KSA.webp" class="rounded-circle">
+                                    <span>KSA</span>
+                                </th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" colspan="2" class="fw-normal | flag">
+                                    <img src="./imgs/Flag-KSA.webp" class="rounded-circle">
+                                    <span>KSA</span>
+                                </th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" colspan="2" class="fw-normal | flag">
+                                    <img src="./imgs/Flag-KSA.webp" class="rounded-circle">
+                                    <span>KSA</span>
+                                </th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Standing Column -->
+                <div class="col-sm-6 | mt-2">
+                    <table
+                        class="table | table-responsive | text-center | align-middle | shadow | table-hover | bg-white">
+                        <!-- Group Name -->
+                        <thead class="bg-primary">
+                            <tr>
+                                <th scope="col" colspan="6">Group (A)</th>
+                            </tr>
+                        </thead>
+                        <!-- Standing Content -->
+                        <tbody>
+                            <!-- All Standings Headers -->
+                            <tr class="tr-hov | bg-secondary">
+                                <th scope="row" colspan="2" class="fw-normal">Team</th>
+                                <td class="won"><span>Won</span></td>
+                                <td class="lost"><span>Lost</span></td>
+                                <td class="draw"><span>Draw</span></td>
+                                <td>Pts</td>
+                            </tr>
+                            <!-- Standings Data -->
+                            <tr>
+                                <th scope="row" colspan="2" class="fw-normal | flag">
+                                    <img src="./imgs/Flag-KSA.webp" class="rounded-circle">
+                                    <span>KSA</span>
+                                </th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" colspan="2" class="fw-normal | flag">
+                                    <img src="./imgs/Flag-KSA.webp" class="rounded-circle">
+                                    <span>KSA</span>
+                                </th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" colspan="2" class="fw-normal | flag">
+                                    <img src="./imgs/Flag-KSA.webp" class="rounded-circle">
+                                    <span>KSA</span>
+                                </th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" colspan="2" class="fw-normal | flag">
+                                    <img src="./imgs/Flag-KSA.webp" class="rounded-circle">
+                                    <span>KSA</span>
+                                </th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Standing Column -->
+                <div class="col-sm-6 | mt-2">
+                    <table
+                        class="table | table-responsive | text-center | align-middle | shadow | table-hover | bg-white">
+                        <!-- Group Name -->
+                        <thead class="bg-primary">
+                            <tr>
+                                <th scope="col" colspan="6">Group (A)</th>
+                            </tr>
+                        </thead>
+                        <!-- Standing Content -->
+                        <tbody>
+                            <!-- All Standings Headers -->
+                            <tr class="tr-hov | bg-secondary">
+                                <th scope="row" colspan="2" class="fw-normal">Team</th>
+                                <td class="won"><span>Won</span></td>
+                                <td class="lost"><span>Lost</span></td>
+                                <td class="draw"><span>Draw</span></td>
+                                <td>Pts</td>
+                            </tr>
+                            <!-- Standings Data -->
+                            <tr>
+                                <th scope="row" colspan="2" class="fw-normal | flag">
+                                    <img src="./imgs/Flag-KSA.webp" class="rounded-circle">
+                                    <span>KSA</span>
+                                </th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" colspan="2" class="fw-normal | flag">
+                                    <img src="./imgs/Flag-KSA.webp" class="rounded-circle">
+                                    <span>KSA</span>
+                                </th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" colspan="2" class="fw-normal | flag">
+                                    <img src="./imgs/Flag-KSA.webp" class="rounded-circle">
+                                    <span>KSA</span>
+                                </th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" colspan="2" class="fw-normal | flag">
+                                    <img src="./imgs/Flag-KSA.webp" class="rounded-circle">
+                                    <span>KSA</span>
+                                </th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+        <!--========== Matches Card ==========-->
+        <div class="px-3 | pt-3 | px-sm-0">
+            <!-- Title Row -->
+            <div class="title_row__text | row">
+                <h2>المباريات</h2>
+                <hr class="mb-3">
+            </div>
+
+            <!-- Matches Row -->
+            <div id="matches" class="row">
+                <!-- Match Col -->
+                <div class="matchbox-border | container">
+                    <!-- Single Match -->
+                    <div class="match | container | shadow">
+                        <div class="match-header">
+                            <span>Group (A)</span>
+                        </div>
+
+                        <div class="match-content | row | pt-3">
+                            <div class="col-4 | column">
+                                <div class="team | team--home">
+                                    <div class="team-logo">
+                                        <img class="rounded-circle" src="./imgs/Flag-KSA.webp">
+                                    </div>
+                                    <h2 class="team-name">KSA</h2>
+                                </div>
+                            </div>
+
+                            <div class="col-4 | column">
+                                <div class="match-details">
+                                    <div class="match-date">
+                                        12 Aug at <strong>19:00</strong>
+                                    </div>
+
+                                    <div class="match-score">
+                                        <span class="match-score-number | match-score-number--leading">2</span>
+                                        <span class="match-score-divider">:</span>
+                                        <span class="match-score-number">0</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4 | column">
+                                <div class="team | team--away">
+                                    <div class="team-logo">
+                                        <img class="rounded-circle" src="./imgs/Flag-KSA.webp">
+                                    </div>
+                                    <h2 class="team-name">KSA</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Match Col -->
+                <div class="matchbox-border | container">
+                    <!-- Single Match -->
+                    <div class="match | container | shadow">
+                        <div class="match-header">
+                            <span>Group (A)</span>
+                        </div>
+
+                        <div class="match-content | row | pt-3">
+                            <div class="col-4 | column">
+                                <div class="team | team--home">
+                                    <div class="team-logo">
+                                        <img class="rounded-circle" src="./imgs/Flag-KSA.webp">
+                                    </div>
+                                    <h2 class="team-name">KSA</h2>
+                                </div>
+                            </div>
+
+                            <div class="col-4 | column">
+                                <div class="match-details">
+                                    <div class="match-date">
+                                        12 Aug at <strong>19:00</strong>
+                                    </div>
+
+                                    <div class="match-score">
+                                        <span class="match-score-number | match-score-number--leading">2</span>
+                                        <span class="match-score-divider">:</span>
+                                        <span class="match-score-number">0</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4 | column">
+                                <div class="team | team--away">
+                                    <div class="team-logo">
+                                        <img class="rounded-circle" src="./imgs/Flag-KSA.webp">
+                                    </div>
+                                    <h2 class="team-name">KSA</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--========== Footer ==========-->
+    <footer class="text-center | text-white | bg-footer">
+        <div class="bg-pattern">
+            <div class="footer-txt | d-flex | justify-content-center">
+                <p>
+                    تم بناء هذا الموقع باستخدام (HTML-CSS-BS-JS) تطبيقاً لدرس الأستاذ يعرُب من قناة أكاديمية ترميز
+                    حيث
+                    تم تغيير
+                    الشكل وتحسينه وإضافة التجاوب، ويوفر هذا الموقع إمكانية الإطلاع على المجموعات للفرق المشاركة وترتيبها
+                    بالإضافة لعرض
+                    نتائج المباريات أولاً بأول، كما سيتم تطوير الموقع في المستقبل وبشكل أفضل بإذن لله.
+                </p>
+            </div>
+
+            <!-- Copyright -->
+            <div class="copy__right | p-3">
+                <span>Made with </span>
+                <i class='bx bxs-heart'></i>
+                <span>by </span>
+                <a href="https://komin-soon.netlify.app" target="_blank">Nayel</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- Axios Library -->
+    <script src="./js/axios.min.js"></script>
+
+    <!-- Fetching data from API -->
+    <script>
+        const token = "0a4e7050bb914d818483ac0cb3b86d3a";
+        const baseUrl = "https://proxy.cors.sh/https://api.football-data.org/v4/competitions/2000";
+
+        /*-------------------------------------------------*/
+        /*---------- [ Get Standings Function ] ----------*/
+        /*-----------------------------------------------*/
+        function getStandings() {
+            const url = `${baseUrl}/standings`;
+
+            axios
+                .get(url, {
+                    headers: {
+                        "X-Auth-Token": token,
+                    },
+                })
+                .then((response) => {
+                    const standings = response.data.standings;
+
+                    document.getElementById("standings").innerHTML = "";
+
+                    for (standing of standings) {
+                        let tableContent = "";
+
+                        for (row of standing.table) {
+                            tableContent += `
+
+                        <tr>
+                            <th scope="row" colspan="2" class="fw-normal | flag"  data-team="img-and-tla">
+                                <img src="${row.team.crest}" class="rounded-circle">
+                                <span class="fw-bold"> ${row.team.tla}</span>
+                            </th>
+                            <td>${row.won}</td>
+                            <td>${row.lost}</td>
+                            <td>${row.draw}</td>
+                            <td>${row.points}</td>
+                        </tr>
+
+                    `;
+                        }
+
+                        const content = `
+
+                    <div class="col-sm-6 | mb-3">
+                        <table class="table | table-responsive | text-center | table-hover | align-middle | shadow | bg-white">
+                            <thead class="bg-primary">
+                                <tr>
+                                    <th scope="col" colspan="6">${standing.group}</th>
+                                </tr>
+                            </thead>
+                            <tbody>  
+                                <tr class="bg-secondary | tr-hov">
+                                    <th scope="row" colspan="2" class="fw-normal">Team</th>
+                                    <td class="won"><span>Won</span></td>
+                                    <td class="lost"><span>Lost</span></td>
+                                    <td class="draw"><span>Draw</span></td>
+                                    <td>Pts</td>
+                                </tr>
+                                <tr>
+                                    ${tableContent}
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                `;
+                        document.getElementById("standings").innerHTML += content;
+                    }
+                });
+        }
+
+        /*-------------------------------------------------*/
+        /*----------- [ Get Matches Function ] -----------*/
+        /*-----------------------------------------------*/
+        function getMatches() {
+            const url = `${baseUrl}/matches`;
+
+            axios
+                .get(url, {
+                    headers: {
+                        "X-Auth-Token": token,
+                    },
+                })
+                .then((response) => {
+                    const matches = response.data.matches;
+                    document.getElementById("matches").innerHTML = "";
+
+                    for (match of matches) {
+                        const homeTeam = match.homeTeam;
+                        const awayTeam = match.awayTeam;
+
+                        const utcDate = match.utcDate;
+                        const matchTime = new Date(utcDate);
+                        const dateString = matchTime.getUTCDate() + "/" + (matchTime.getUTCMonth() + 1) + "/" + matchTime.getUTCFullYear();
+                        const hourString = matchTime.getUTCHours() + ":" + matchTime.getUTCMinutes();
+
+                        const matchContent = `
+
+                    <!-- Match Col -->
+                    <div class="matchbox-border | container">
+                        <!-- Single Match -->
+                        <div class="container | shadow | match">
+                            <div class="match-header">
+                                <span>${match.group ?? "Group_N"}</span>
+                            </div>
+                            <div class="row | match-content | pt-3">
+                                <div class="col-4 | column">
+                                    <div class="team | team--home">
+                                        <div class="team-logo">
+                                            <img class="rounded-circle" src="${homeTeam.crest}">
+                                        </div>
+                                        <h2 class="team-name">${homeTeam.tla}</h2>
+                                    </div>
+                                </div>
+                                <div class="col-4 | column">
+                                    <div class="match-details">
+                                        <div class="match-date">${dateString} at <strong>${hourString}</strong></div>
+                                        <div class="match-score">
+                                            <span class="match-score-number | match-score-number--leading">${match.score.fullTime.home ?? "-"}</span>
+                                            <span class="match-score-divider">:</span>
+                                            <span class="match-score-number">${match.score.fullTime.away ?? "-"}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 | column">
+                                    <div class="team | team--away">
+                                        <div class="team-logo">
+                                            <img class="rounded-circle" src="${awayTeam.crest}">
+                                        </div>
+                                        <h2 class="team-name">${awayTeam.tla}</h2>
+                                    </div>
+                                </div>      
+                            </div>
+                        </div>
+                    </div>
+                `;
+                        document.getElementById("matches").innerHTML += matchContent;
+                    }
+                });
+        }
+
+        getStandings();
+        getMatches();
+    </script>
+
+    <!-- Animation Birds Library Files -->
+    <script src="./js/three.min.js"></script>
+    <script src="./js/vanta.birds.min.js"></script>
+    <script>
+        VANTA.BIRDS({
+            el: "#mybirds",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 580.0,
+            minWidth: 200.0,
+            scale: 1.0,
+            scaleMobile: 1.0,
+            speedLimit: 3.0,
+            separation: 45.0,
+            alignment: 85.0,
+        });
+    </script>
+
+    <!-- BootStrap Js File -->
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
