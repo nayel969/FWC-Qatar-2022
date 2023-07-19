@@ -1,7 +1,7 @@
 # FWC-Qatar-2022
 
-## Fifa World Cup Qatar 2022 Simple Webpage
+## Fifa World Cup Qatar 2022
 
-This website was built using HTML & CSS & BootStrap & JS step by step with teacher Yarob from channel, where the format has been changed little bit and improve some components, and fixing the responsiveness well.
+The creation of this webpage followed a step-by-step under the guidance of teacher "Yarob" on his YouTube channel. It designed by HTML, CSS, Bootstrap, and JS. During the process, I made minor adjustments to the format, enhanced certain components, and successfully resolved any issues related to responsiveness.
 
-It's just to show the groups of the participating teams and their arrangement in the competition, additionly to displaying the results of the matches, by using [football-data.org](https://www.football-data.org) API.
+This webpage is just to show the groups of the participating teams and their arrangement in the competition, also to displaying the results of the matches, by using [football-data.org](https://www.football-data.org) API.
